@@ -11,7 +11,7 @@ export default {
       colors: {
         "primaryColor": "#242532",
         "secondaryColor": "#313444 ",
-        "Title": "#313444",
+        "titleColor": "#EEBE5F",
       },
     },
   },
