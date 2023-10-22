@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/avatar.jpeg";
+import avatar from "../assets/avatar.png";
 const NavBar = () => {
   return (
     <div className="">
@@ -34,7 +34,7 @@ const NavBar = () => {
             <br />
             Designer
           </p>
-          <button className="text-white text-xl mt-8 bg-titleColor hover:bg-[#FEB633] px-[40px] py-[15px] rounded-md">
+          <button className="text-white text-xl mt-8 mb-10 bg-titleColor hover:bg-[#FEB633] px-[40px] py-[15px] rounded-md">
             Hire Me
           </button>
         </div>

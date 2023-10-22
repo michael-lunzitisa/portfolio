@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/avatar.jpeg";
+import avatar from "../assets/avatar.png";
 const About = () => {
   return (
     <div className=" bg-[#242532] py-11">

@@ -1,13 +1,58 @@
 const Skils = () => {
   return (
-    <section className="bg-secondaryColor">
+    <section className="bg-secondaryColor py-10">
       <h2 className="text-titleColor text-center text-[45px] font-bold">
         Skils
       </h2>
-      <div className="flex justify-center  ">
-        <div className="w-[50%]   bg-titleColor p-0.5 text-center text-white text-xs font-medium">
-          <div className="w-[30%] bg-gray-500 p-0.5 text-center text-white text-xs font-medium">
-            25%
+      <div className="flex flex-col items-center">
+        <div class="rounded-lg w-[50%] p-4">
+          <div>
+            <span className="text-white font">HTML</span>
+          </div>
+          <div class="w-full h-4 bg-gray-400 rounded-full">
+            <div class="w-3/4 h-full text-center text-xs font-medium text-white bg-titleColor rounded-full">
+              75%
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[50%] p-4">
+          <div>
+            <span className="text-white font">CSS</span>
+          </div>
+          <div class="w-full h-4 bg-gray-400 rounded-full">
+            <div class="w-3/4 h-full text-center text-xs font-medium text-white bg-titleColor rounded-full">
+              75%
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[50%] p-4">
+          <div>
+            <span className="text-white font">JAVASCRIPT</span>
+          </div>
+          <div class="w-full h-4 bg-gray-400 rounded-full">
+            <div class="w-3/4 h-full text-center text-xs font-medium text-white bg-titleColor rounded-full">
+              75%
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[50%] p-4">
+          <div>
+            <span className="text-white font">WORDPRESS</span>
+          </div>
+          <div class="w-full h-4 bg-gray-400 rounded-full">
+            <div class="w-3/4 h-full text-center text-xs font-medium text-white bg-titleColor rounded-full">
+              75%
+            </div>
+          </div>
+        </div>
+        <div class="rounded-lg w-[50%] p-4">
+          <div>
+            <span className="text-white font">TAILWIND CSS</span>
+          </div>
+          <div class="w-full h-4 bg-gray-400 rounded-full">
+            <div class="w-3/4 h-full text-center text-xs font-medium text-white bg-titleColor rounded-full">
+              75%
+            </div>
           </div>
         </div>
       </div>
