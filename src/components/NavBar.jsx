@@ -30,9 +30,9 @@ const NavBar = () => {
           </span>
           <h1 className="text-[70px]">I'm Michael</h1>
           <p className="text-[24px]">
-            Freelance Web & Mobile UI/UX
-            <br />
-            Designer
+            UI/UX Designer,
+            <br /> Full Stack Web <br />
+            Developper
           </p>
           <button className="text-white text-xl mt-8 mb-10 bg-titleColor hover:bg-[#FEB633] px-[40px] py-[15px] rounded-md">
             Hire Me
