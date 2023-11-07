@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <div className="bg-[#242532] h-[100vh] py-10">
+    <div className="bg-secondaryColor h-[100vh] py-10">
       <div>
-        <form action="/submit" method="post">
+        <form action="submit" method="post">
           <div class="flex flex-col justify-content-center items-center bg-titleColor">
             <input
               type="text"
